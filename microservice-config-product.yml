@@ -30,9 +30,9 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka6001.com:6001/eureka
-  instance:
-    instanceId: ${spring.application.name}:${server.port}
-    prefer-ip-address: true
+    instance:
+      instanceId: ${spring.application.name}:${server.port}
+      prefer-ip-address: true
 ---
 server:
   port: 8001
@@ -61,6 +61,6 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka6001.com:6001/eureka
-  instance:
-    instanceId: ${spring.application.name}:${server.port}
-    prefer-ip-address: true
+    instance:
+      instanceId: ${spring.application.name}:${server.port}
+      prefer-ip-address: true
