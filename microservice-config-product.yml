@@ -2,6 +2,8 @@ spring:
   profiles:
     active: dev
 ---
+emp:
+  name: zhangsan
 server:
   port: 8001
 mybatis:
